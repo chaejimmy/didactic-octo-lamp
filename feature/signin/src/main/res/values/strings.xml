@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_signin_onboarding_sign_in">Sign in</string>
+    <string name="feature_signin_onboarding_create_account">Create an account</string>
+    <string name="feature_signin_onboarding_already_have_account">Already have an account?</string>
+    <string name="feature_signin_ui_dob_label">Select date of birth</string>
+</resources>

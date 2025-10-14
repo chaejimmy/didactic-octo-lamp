@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2024 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="feature_home_good_morning">Good Morning,</string>
+    <string name="feature_home_find_your_perfect_stay">Find your perfect stay!</string>
+    <string name="feature_home_categories">Categories</string>
+    <string name="feature_home_parking_spot">Parking Spot</string>
+    <string name="feature_home_storage_room">Storage Room</string>
+    <string name="feature_home_ev_parking">EV Parking</string>
+    <string name="feature_home_rest_room">Rest Room</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="browse_by_destination">Browse by Destination</string>
+    <string name="feature_home_explore_perfect_places_by_destination">Explore perfect places by destination.</string>
+    <string name="time_based">Time Based</string>
+    <string name="help_you_what_needed">Help you to find what you needed.</string>
+    <string name="hourly_rented_gear">Hourly Rented Gear</string>
+    <string name="feature_home_rent_now">Rent Now</string>
+</resources>

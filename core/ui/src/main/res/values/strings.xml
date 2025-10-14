@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="core_ui_onboarding_title_1">Shared living space</string>
+    <string name="core_ui_onboarding_description_1">
+        What fun could we have more than having roommate with similar interests.
+    </string>
+    <string name="core_ui_onboarding_title_2">Find places around you</string>
+    <string name="core_ui_onboarding_description_2">
+        You can find places and stay with hotels and home-stays ranked by travellers.
+    </string>
+    <string name="core_ui_onboarding_title_3">Find places around you</string>
+    <string name="core_ui_onboarding_description_3">
+      You can find places and stay with hotels and home-stays ranked by travellers.
+    </string>
+    <string name="core_ui_getting_ready">Getting ready…</string>
+    <string name="core_ui_signing_in">Signing you in…</string>
+    <string name="core_ui_continue_with_google">Continue with Google</string>
+    <string name="core_ui_auth_header_title">Let\'s start with %s</string>
+    <string name="core_ui_have_account_question">%s have an account?</string>
+    <string name="core_ui_otp_title">OTP Verification</string>
+    <string name="core_ui_otp_subtitle">Enter the 6-digit code sent to %s</string>
+    <string name="core_ui_have_not_received_otp">I haven\'t received a code %s</string>
+    <string name="core_ui_continue_button">Continue</string>
+    <string name="core_ui_phone_number_error">Invalid phone number</string>
+    <string name="core_ui_phone_number_placehoolder">Enter your phone number</string>
+    <string name="core_ui_onboarding_sign_in">Sign in</string>
+    <string name="core_ui_continue_with_email">Continue with Email</string>
+    <string name="core_ui_email_label">Enter your registered mail</string>
+    <string name="core_ui_password_label">Enter password</string>
+    <string name="core_ui_password_title">Password</string>
+    <string name="core_ui_forgot_password">Forgot Password?</string>
+    <string name="core_ui_privacy_policy">By continuing, you acknowledge that you have read, understood and agree to PaceDream\'s Terms of Service and Privacy Policy.</string>
+    <string name="core_ui_create_account">Create an account</string>
+    <string name="core_ui_continue_with_phone">Continue with Phone</string>
+    <string name="core_ui_help_text">help?</string>
+    <string name="core_ui_password_setup_subtitle">At least 8 digits</string>
+    <string name="core_ui_confirm_password_label">Confirm password</string>
+    <string name="core_ui_first_name_label">First name</string>
+    <string name="core_ui_setup_basic">Set-Up Basic</string>
+    <string name="core_ui_setup_basic_subtitle">Kindly tell us about yourself for better connection.</string>
+    <string name="core_ui_hobbies_n_interests"><![CDATA[Hobbies & Interests]]></string>
+    <string name="core_ui_hobbies_n_interests_subtitle">We\'re at the final stage, select a maximum of %s interests</string>
+    <string name="core_ui_birthday_picker_title">Date of birth</string>
+    <string name="core_ui_last_name_label">Last name</string>
+    <string name="feature_signin_ui_previous" tools:ignore="ResourceName">Previous</string>
+</resources>

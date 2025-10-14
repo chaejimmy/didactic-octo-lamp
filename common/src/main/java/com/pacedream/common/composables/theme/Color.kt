@@ -1,0 +1,321 @@
+
+package com.pacedream.common.composables.theme
+
+import androidx.compose.ui.graphics.Color
+
+// PaceDream Brand Colors (matching iOS)
+val PaceDreamPrimary = Color(0xFF5527D7) // #5527D7
+val PaceDreamPrimaryLight = Color(0xFF5527D7).copy(alpha = 0.1f)
+val PaceDreamPrimaryDark = Color(0xFF5527D7).copy(alpha = 0.8f)
+
+val PaceDreamSecondary = Color(0xFF3B82F6) // #3B82F6
+val PaceDreamAccent = Color(0xFF7B4DFF) // #7B4DFF
+
+val PaceDreamBackground = Color(0xFFFFFFFF)
+val PaceDreamSurface = Color(0xFFF8F9FA)
+val PaceDreamCard = Color(0xFFFFFFFF)
+
+val PaceDreamTextPrimary = Color(0xFF1A1A1A)
+val PaceDreamTextSecondary = Color(0xFF6B7280)
+val PaceDreamTextTertiary = Color(0xFF9CA3AF)
+
+val PaceDreamSuccess = Color(0xFF10B981)
+val PaceDreamWarning = Color(0xFFF59E0B)
+val PaceDreamError = Color(0xFFEF4444)
+val PaceDreamInfo = Color(0xFF3B82F6)
+
+// Neutral Grays
+val PaceDreamGray50 = Color(0xFFF9FAFB)
+val PaceDreamGray100 = Color(0xFFF3F4F6)
+val PaceDreamGray200 = Color(0xFFE5E7EB)
+val PaceDreamGray300 = Color(0xFFD1D5DB)
+val PaceDreamGray400 = Color(0xFF9CA3AF)
+val PaceDreamGray500 = Color(0xFF6B7280)
+val PaceDreamGray600 = Color(0xFF4B5563)
+val PaceDreamGray700 = Color(0xFF374151)
+val PaceDreamGray800 = Color(0xFF1F2937)
+val PaceDreamGray900 = Color(0xFF111827)
+
+// Legacy colors for backward compatibility
+val primaryLight = PaceDreamPrimary
+val onPrimaryLight = Color(0xFFFFFFFF)
+val primaryContainerLight = PaceDreamPrimaryLight
+val onPrimaryContainerLight = Color(0xFFFFFFFF)
+val secondaryLight = PaceDreamSecondary
+val onSecondaryLight = Color(0xFFFFFFFF)
+val secondaryContainerLight = PaceDreamAccent
+val onSecondaryContainerLight = Color(0xFFFFFFFF)
+val tertiaryLight = PaceDreamAccent
+val onTertiaryLight = Color(0xFFFFFFFF)
+val tertiaryContainerLight = PaceDreamAccent
+val onTertiaryContainerLight = Color(0xFFFFFFFF)
+val errorLight = PaceDreamError
+val onErrorLight = Color(0xFFFFFFFF)
+val errorContainerLight = Color(0xFFFFDAD6)
+val onErrorContainerLight = Color(0xFF410002)
+val backgroundLight = PaceDreamBackground
+val onBackgroundLight = PaceDreamTextPrimary
+val surfaceLight = PaceDreamSurface
+val onSurfaceLight = PaceDreamTextPrimary
+val surfaceVariantLight = PaceDreamGray200
+val onSurfaceVariantLight = PaceDreamGray600
+val outlineLight = PaceDreamGray400
+val outlineVariantLight = PaceDreamGray300
+val scrimLight = Color(0xFF000000)
+val inverseSurfaceLight = PaceDreamGray800
+val inverseOnSurfaceLight = PaceDreamGray50
+val inversePrimaryLight = PaceDreamAccent
+val surfaceDimLight = PaceDreamGray100
+val surfaceBrightLight = PaceDreamBackground
+val surfaceContainerLowestLight = Color(0xFFFFFFFF)
+val surfaceContainerLowLight = PaceDreamGray50
+val surfaceContainerLight = PaceDreamGray100
+val surfaceContainerHighLight = PaceDreamGray200
+val surfaceContainerHighestLight = PaceDreamGray300
+
+val primaryLightAndroid = PaceDreamPrimary
+val onPrimaryLightAndroid = Color(0xFFFFFFFF)
+val primaryContainerLightAndroid = PaceDreamPrimaryLight
+val onPrimaryContainerLightAndroid = Color(0xFFFFFFFF)
+val secondaryLightAndroid = PaceDreamSecondary
+val onSecondaryLightAndroid = Color(0xFFFFFFFF)
+val secondaryContainerLightAndroid = PaceDreamAccent
+val onSecondaryContainerLightAndroid = Color(0xFFFFFFFF)
+val tertiaryLightAndroid = PaceDreamAccent
+val onTertiaryLightAndroid = Color(0xFFFFFFFF)
+val tertiaryContainerLightAndroid = PaceDreamAccent
+val onTertiaryContainerLightAndroid = Color(0xFFFFFFFF)
+val errorLightAndroid = PaceDreamError
+val onErrorLightAndroid = Color(0xFFFFFFFF)
+val errorContainerLightAndroid = Color(0xFFFFDAD6)
+val onErrorContainerLightAndroid = Color(0xFFFFFFFF)
+val backgroundLightAndroid = PaceDreamBackground
+val onBackgroundLightAndroid = PaceDreamTextPrimary
+val surfaceLightAndroid = PaceDreamSurface
+val onSurfaceLightAndroid = PaceDreamTextPrimary
+val surfaceVariantLightAndroid = PaceDreamGray200
+val onSurfaceVariantLightAndroid = PaceDreamGray600
+val outlineLightAndroid = PaceDreamGray400
+val outlineVariantLightAndroid = PaceDreamGray300
+val scrimLightAndroid = Color(0xFF000000)
+val inverseSurfaceLightAndroid = PaceDreamGray800
+val inverseOnSurfaceLightAndroid = PaceDreamGray50
+val inversePrimaryLightAndroid = PaceDreamAccent
+val surfaceDimLightAndroid = PaceDreamGray100
+val surfaceBrightLightAndroid = PaceDreamBackground
+val surfaceContainerLowestLightAndroid = Color(0xFFFFFFFF)
+val surfaceContainerLowLightAndroid = PaceDreamGray50
+val surfaceContainerLightAndroid = PaceDreamGray100
+val surfaceContainerHighLightAndroid = PaceDreamGray200
+val surfaceContainerHighestLightAndroid = PaceDreamGray300
+
+val primaryLightHighContrast = Color(0xFF001B5F)
+val onPrimaryLightHighContrast = Color(0xFFFFFFFF)
+val primaryContainerLightHighContrast = Color(0xFF0037A9)
+val onPrimaryContainerLightHighContrast = Color(0xFFFFFFFF)
+val secondaryLightHighContrast = Color(0xFF001B5F)
+val onSecondaryLightHighContrast = Color(0xFFFFFFFF)
+val secondaryContainerLightHighContrast = Color(0xFF263D88)
+val onSecondaryContainerLightHighContrast = Color(0xFFFFFFFF)
+val tertiaryLightHighContrast = Color(0xFF001B5F)
+val onTertiaryLightHighContrast = Color(0xFFFFFFFF)
+val tertiaryContainerLightHighContrast = Color(0xFF0037A9)
+val onTertiaryContainerLightHighContrast = Color(0xFFFFFFFF)
+val errorLightHighContrast = Color(0xFF4E0002)
+val onErrorLightHighContrast = Color(0xFFFFFFFF)
+val errorContainerLightHighContrast = Color(0xFF8C0009)
+val onErrorContainerLightHighContrast = Color(0xFFFFFFFF)
+val backgroundLightHighContrast = Color(0xFFFAF8FF)
+val onBackgroundLightHighContrast = Color(0xFF191B25)
+val surfaceLightHighContrast = Color(0xFFFAF8FF)
+val onSurfaceLightHighContrast = Color(0xFF000000)
+val surfaceVariantLightHighContrast = Color(0xFFDFE1F6)
+val onSurfaceVariantLightHighContrast = Color(0xFF202332)
+val outlineLightHighContrast = Color(0xFF3F4252)
+val outlineVariantLightHighContrast = Color(0xFF3F4252)
+val scrimLightHighContrast = Color(0xFF000000)
+val inverseSurfaceLightHighContrast = Color(0xFF2E303A)
+val inverseOnSurfaceLightHighContrast = Color(0xFFFFFFFF)
+val inversePrimaryLightHighContrast = Color(0xFFE9EBFF)
+val surfaceDimLightHighContrast = Color(0xFFD9D9E6)
+val surfaceBrightLightHighContrast = Color(0xFFFAF8FF)
+val surfaceContainerLowestLightHighContrast = Color(0xFFFFFFFF)
+val surfaceContainerLowLightHighContrast = Color(0xFFF3F2FF)
+val surfaceContainerLightHighContrast = Color(0xFFEDEDFA)
+val surfaceContainerHighLightHighContrast = Color(0xFFE7E7F5)
+val surfaceContainerHighestLightHighContrast = Color(0xFFE1E1EF)
+
+val primaryDark = Color(0xFFB6C4FF)
+val onPrimaryDark = Color(0xFF00277F)
+val primaryContainerDark = Color(0xFF004FEB)
+val onPrimaryContainerDark = Color(0xFFFFFFFF)
+val secondaryDark = Color(0xFFB6C4FF)
+val onSecondaryDark = Color(0xFF0D2975)
+val secondaryContainerDark = Color(0xFF1F3782)
+val onSecondaryContainerDark = Color(0xFFC4CFFF)
+val tertiaryDark = Color(0xFFB6C4FF)
+val onTertiaryDark = Color(0xFF00277F)
+val tertiaryContainerDark = Color(0xFF004FEB)
+val onTertiaryContainerDark = Color(0xFFFFFFFF)
+val errorDark = Color(0xFFFFB4AB)
+val onErrorDark = Color(0xFF690005)
+val errorContainerDark = Color(0xFF93000A)
+val onErrorContainerDark = Color(0xFFFFDAD6)
+val backgroundDark = Color(0xFF11131C)
+val onBackgroundDark = Color(0xFFE1E1EF)
+val surfaceDark = Color(0xFF11131C)
+val onSurfaceDark = Color(0xFFE1E1EF)
+val surfaceVariantDark = Color(0xFF434656)
+val onSurfaceVariantDark = Color(0xFFC3C5D9)
+val outlineDark = Color(0xFF8D90A2)
+val outlineVariantDark = Color(0xFF434656)
+val scrimDark = Color(0xFF000000)
+val inverseSurfaceDark = Color(0xFFE1E1EF)
+val inverseOnSurfaceDark = Color(0xFF2E303A)
+val inversePrimaryDark = Color(0xFF004EE7)
+val surfaceDimDark = Color(0xFF11131C)
+val surfaceBrightDark = Color(0xFF373943)
+val surfaceContainerLowestDark = Color(0xFF0C0E17)
+val surfaceContainerLowDark = Color(0xFF191B25)
+val surfaceContainerDark = Color(0xFF1D1F29)
+val surfaceContainerHighDark = Color(0xFF272933)
+val surfaceContainerHighestDark = Color(0xFF32343E)
+
+val primaryDarkAndroid = Color(0xFFBCC8FF)
+val onPrimaryDarkAndroid = Color(0xFF001144)
+val primaryContainerDarkAndroid = Color(0xFF6789FF)
+val onPrimaryContainerDarkAndroid = Color(0xFF000000)
+val secondaryDarkAndroid = Color(0xFFBCC8FF)
+val onSecondaryDarkAndroid = Color(0xFF001144)
+val secondaryContainerDarkAndroid = Color(0xFF778DDD)
+val onSecondaryContainerDarkAndroid = Color(0xFF000000)
+val tertiaryDarkAndroid = Color(0xFFBCC8FF)
+val onTertiaryDarkAndroid = Color(0xFF001144)
+val tertiaryContainerDarkAndroid = Color(0xFF6789FF)
+val onTertiaryContainerDarkAndroid = Color(0xFF000000)
+val errorDarkAndroid = Color(0xFFFFBAB1)
+val onErrorDarkAndroid = Color(0xFF370001)
+val errorContainerDarkAndroid = Color(0xFFFF5449)
+val onErrorContainerDarkAndroid = Color(0xFF000000)
+val backgroundDarkAndroid = Color(0xFF11131C)
+val onBackgroundDarkAndroid = Color(0xFFE1E1EF)
+val surfaceDarkAndroid = Color(0xFF11131C)
+val onSurfaceDarkAndroid = Color(0xFFFCFAFF)
+val surfaceVariantDarkAndroid = Color(0xFF434656)
+val onSurfaceVariantDarkAndroid = Color(0xFFC7CADD)
+val outlineDarkAndroid = Color(0xFF9FA2B5)
+val outlineVariantDarkAndroid = Color(0xFF7F8294)
+val scrimDarkAndroid = Color(0xFF000000)
+val inverseSurfaceDarkAndroid = Color(0xFFE1E1EF)
+val inverseOnSurfaceDarkAndroid = Color(0xFF282A33)
+val inversePrimaryDarkAndroid = Color(0xFF003BB4)
+val surfaceDimDarkAndroid = Color(0xFF11131C)
+val surfaceBrightDarkAndroid = Color(0xFF373943)
+val surfaceContainerLowestDarkAndroid = Color(0xFF0C0E17)
+val surfaceContainerLowDarkAndroid = Color(0xFF191B25)
+val surfaceContainerDarkAndroid = Color(0xFF1D1F29)
+val surfaceContainerHighDarkAndroid = Color(0xFF272933)
+val surfaceContainerHighestDarkAndroid = Color(0xFF32343E)
+
+val primaryDarkHighContrast = Color(0xFFFCFAFF)
+val onPrimaryDarkHighContrast = Color(0xFF000000)
+val primaryContainerDarkHighContrast = Color(0xFFBCC8FF)
+val onPrimaryContainerDarkHighContrast = Color(0xFF000000)
+val secondaryDarkHighContrast = Color(0xFFFCFAFF)
+val onSecondaryDarkHighContrast = Color(0xFF000000)
+val secondaryContainerDarkHighContrast = Color(0xFFBCC8FF)
+val onSecondaryContainerDarkHighContrast = Color(0xFF000000)
+val tertiaryDarkHighContrast = Color(0xFFFCFAFF)
+val onTertiaryDarkHighContrast = Color(0xFF000000)
+val tertiaryContainerDarkHighContrast = Color(0xFFBCC8FF)
+val onTertiaryContainerDarkHighContrast = Color(0xFF000000)
+val errorDarkHighContrast = Color(0xFFFFF9F9)
+val onErrorDarkHighContrast = Color(0xFF000000)
+val errorContainerDarkHighContrast = Color(0xFFFFBAB1)
+val onErrorContainerDarkHighContrast = Color(0xFF000000)
+val backgroundDarkHighContrast = Color(0xFF11131C)
+val onBackgroundDarkHighContrast = Color(0xFFE1E1EF)
+val surfaceDarkHighContrast = Color(0xFF11131C)
+val onSurfaceDarkHighContrast = Color(0xFFFFFFFF)
+val surfaceVariantDarkHighContrast = Color(0xFF434656)
+val onSurfaceVariantDarkHighContrast = Color(0xFFFCFAFF)
+val outlineDarkHighContrast = Color(0xFFC7CADD)
+val outlineVariantDarkHighContrast = Color(0xFFC7CADD)
+val scrimDarkHighContrast = Color(0xFF000000)
+val inverseSurfaceDarkHighContrast = Color(0xFFE1E1EF)
+val inverseOnSurfaceDarkHighContrast = Color(0xFF000000)
+val inversePrimaryDarkHighContrast = Color(0xFF002270)
+val surfaceDimDarkHighContrast = Color(0xFF11131C)
+val surfaceBrightDarkHighContrast = Color(0xFF373943)
+val surfaceContainerLowestDarkHighContrast = Color(0xFF0C0E17)
+val surfaceContainerLowDarkHighContrast = Color(0xFF191B25)
+val surfaceContainerDarkHighContrast = Color(0xFF1D1F29)
+val surfaceContainerHighDarkHighContrast = Color(0xFF272933)
+val surfaceContainerHighestDarkHighContrast = Color(0xFF32343E)
+
+
+val warningLight = Color(0xFF765B00)
+val onWarningLight = Color(0xFFFFFFFF)
+val warningContainerLight = Color(0xFFFEC713)
+val onWarningContainerLight = Color(0xFF4B3900)
+val successLight = Color(0xFF006E29)
+val onSuccessLight = Color(0xFFFFFFFF)
+val successContainerLight = Color(0xFF2ED25D)
+val onSuccessContainerLight = Color(0xFF00330F)
+
+val warningLightAndroid = Color(0xFF544000)
+val onWarningLightAndroid = Color(0xFFFFFFFF)
+val warningContainerLightAndroid = Color(0xFF917000)
+val onWarningContainerLightAndroid = Color(0xFFFFFFFF)
+val successLightAndroid = Color(0xFF004E1B)
+val onSuccessLightAndroid = Color(0xFFFFFFFF)
+val successContainerLightAndroid = Color(0xFF008734)
+val onSuccessContainerLightAndroid = Color(0xFFFFFFFF)
+
+val warningLightHighContrast = Color(0xFF2D2000)
+val onWarningLightHighContrast = Color(0xFFFFFFFF)
+val warningContainerLightHighContrast = Color(0xFF544000)
+val onWarningContainerLightHighContrast = Color(0xFFFFFFFF)
+val successLightHighContrast = Color(0xFF00290A)
+val onSuccessLightHighContrast = Color(0xFFFFFFFF)
+val successContainerLightHighContrast = Color(0xFF004E1B)
+val onSuccessContainerLightHighContrast = Color(0xFFFFFFFF)
+
+val warningDark = Color(0xFFFFEBBF)
+val onWarningDark = Color(0xFF3E2E00)
+val warningContainerDark = Color(0xFFF0BB00)
+val onWarningContainerDark = Color(0xFF413100)
+val successDark = Color(0xFF4CE870)
+val onSuccessDark = Color(0xFF003912)
+val successContainerDark = Color(0xFF00BD4C)
+val onSuccessContainerDark = Color(0xFF001E06)
+
+val warningDarkAndroid = Color(0xFFFFEBBF)
+val onWarningDarkAndroid = Color(0xFF3E2E00)
+val warningContainerDarkAndroid = Color(0xFFF0BB00)
+val onWarningContainerDarkAndroid = Color(0xFF100A00)
+val successDarkAndroid = Color(0xFF4CE870)
+val onSuccessDarkAndroid = Color(0xFF001E06)
+val successContainerDarkAndroid = Color(0xFF00BD4C)
+val onSuccessContainerDarkAndroid = Color(0xFF000000)
+
+val warningDarkHighContrast = Color(0xFFFFFAF6)
+val onWarningDarkHighContrast = Color(0xFF000000)
+val warningContainerDarkHighContrast = Color(0xFFFAC309)
+val onWarningContainerDarkHighContrast = Color(0xFF000000)
+val successDarkHighContrast = Color(0xFFF0FFEB)
+val onSuccessDarkHighContrast = Color(0xFF000000)
+val successContainerDarkHighContrast = Color(0xFF4AE66F)
+val onSuccessContainerDarkHighContrast = Color(0xFF000000)
+
+//other colors
+val DashboardHeaderColor = PaceDreamPrimary
+val DarkPurpleColor = PaceDreamPrimaryDark
+val NotificationsBgColor = PaceDreamAccent
+val WhiteTextColor = Color(0xFFECECEC)
+val GreyTextColor = PaceDreamTextSecondary
+val HeadlineColor = PaceDreamTextPrimary
+val ViewAllColor = PaceDreamTextTertiary
+val BorderColor = PaceDreamGray200
+val SubHeadingColor = PaceDreamTextSecondary
+

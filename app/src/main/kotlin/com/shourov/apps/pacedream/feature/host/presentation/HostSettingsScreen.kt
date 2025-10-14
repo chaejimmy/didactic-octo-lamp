@@ -1,0 +1,77 @@
+package com.shourov.apps.pacedream.feature.host.presentation
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.pacedream.common.composables.theme.*
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun HostSettingsScreen(
+    onBackClick: () -> Unit
+) {
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = {
+                    Text(
+                        text = "Host Settings",
+                        style = PaceDreamTypography.Title1,
+                        color = PaceDreamColors.TextPrimary,
+                        fontWeight = FontWeight.Bold
+                    )
+                },
+                navigationIcon = {
+                    IconButton(onClick = onBackClick) {
+                        Icon(
+                            imageVector = Icons.Default.ArrowBack,
+                            contentDescription = "Back",
+                            tint = PaceDreamColors.TextPrimary
+                        )
+                    }
+                },
+                colors = TopAppBarDefaults.topAppBarColors(containerColor = PaceDreamColors.Background)
+            )
+        },
+        modifier = Modifier.fillMaxSize()
+    ) { paddingValues ->
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+                .background(PaceDreamColors.Background)
+                .padding(PaceDreamSpacing.LG),
+            contentAlignment = Alignment.Center
+        ) {
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(PaceDreamSpacing.MD)
+            ) {
+                Text(
+                    text = "Host Settings",
+                    style = PaceDreamTypography.Title2,
+                    color = PaceDreamColors.TextPrimary,
+                    fontWeight = FontWeight.Bold
+                )
+                Text(
+                    text = "Coming Soon",
+                    style = PaceDreamTypography.Body,
+                    color = PaceDreamColors.TextSecondary
+                )
+                Text(
+                    text = "Manage your host account settings and preferences",
+                    style = PaceDreamTypography.Caption,
+                    color = PaceDreamColors.TextTertiary,
+                    modifier = Modifier.fillMaxWidth(0.8f)
+                )
+            }
+        }
+    }
+}
